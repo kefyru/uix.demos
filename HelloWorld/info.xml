@@ -1,5 +1,5 @@
 <AppInfo>
   <BasePath>https://raw.githubusercontent.com/kefyru/uix.demos/refs/heads/main/HelloWorld</BasePath>
-  <IconSource></IconSource>
-  <RootPage></RootPage>
+  <IconSource>appicon.png</IconSource>
+  <RootPage>root.xaml</RootPage>
 </AppInfo>  
