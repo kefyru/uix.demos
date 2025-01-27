@@ -4,4 +4,6 @@
   <IconSource>appicon.png</IconSource>
   <RootPage>root.xaml</RootPage>
   <Description>This app demonsrate basic usage</Description>
+  <Author>kefyru</Author>
+  <ProjectWebSite>https://github.com/kefyru/uix.demos</ProjectWebSite>
 </AppInfo>  
