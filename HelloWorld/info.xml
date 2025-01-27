@@ -1,5 +1,5 @@
 <AppInfo>
-  <BasePath></BasePath>
+  <BasePath>https://raw.githubusercontent.com/kefyru/uix.demos/refs/heads/main/HelloWorld</BasePath>
   <IconSource></IconSource>
   <RootPage></RootPage>
 </AppInfo>  
