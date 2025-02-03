@@ -1,37 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<NavigationPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="Main page">
+    <x:Arguments>
+      <ContentPage Title="Hello world">
+        <ScrollView>
+            <VerticalStackLayout
+                Padding="30,0"
+                Spacing="25">
+                <Image
+                    Source="{uix:RelPath appicon.png}"
+                    HeightRequest="185"
+                    Aspect="AspectFit"
+                    />
+    
+                <Label
+                    Text="Hello, World!"
+                    Style="{StaticResource Headline}"
+                    HorizontalTextAlignment="Center"
+                    />
+    
+                <Label
+                    Text="Welcome to &#10;.NET Multi-platform App UI"
+                    Style="{StaticResource SubHeadline}"
+                    HorizontalTextAlignment="Center"
+                    />
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
-            <Image
-                Source="{uix:RelPath appicon.png}"
-                HeightRequest="185"
-                Aspect="AspectFit"
-                />
-
-            <Label
-                Text="Hello, World!"
-                Style="{StaticResource Headline}"
-                HorizontalTextAlignment="Center"
-                />
-
-            <Label
-                Text="Welcome to &#10;.NET Multi-platform App UI"
-                Style="{StaticResource SubHeadline}"
-                HorizontalTextAlignment="Center"
-                />
-
-            <Label Text="{uix:RelPath hello.world}"/>
-            <Button              
-                Text="Close app" 
-                HorizontalOptions="Center"
-                Command="{uix:CloseApp}"
-                />
-        </VerticalStackLayout>
-    </ScrollView>
-
-</ContentPage>
+                <Button              
+                    Text="View source" 
+                    HorizontalOptions="Center"
+                    Command="{uix:NavPush root.xaml, Type=Html}"
+                    />
+                
+                <Button              
+                    Text="Close app" 
+                    HorizontalOptions="Center"
+                    Command="{uix:CloseApp}"
+                    />
+            </VerticalStackLayout>
+        </ScrollView>
+      </ContentPage>
+    <x:Arguments>
+</NavigationPage>
