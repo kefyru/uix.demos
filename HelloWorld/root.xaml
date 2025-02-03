@@ -40,5 +40,5 @@
             </VerticalStackLayout>
         </ScrollView>
       </ContentPage>
-    <x:Arguments>
+    </x:Arguments>
 </NavigationPage>
