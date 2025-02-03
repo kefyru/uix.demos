@@ -28,7 +28,7 @@
             <Button              
                 Text="Close app" 
                 HorizontalOptions="Center"
-                Command={uix:CloseApp}
+                Command="{uix:CloseApp}"
                 />
         </VerticalStackLayout>
     </ScrollView>
