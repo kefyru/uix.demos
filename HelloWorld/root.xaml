@@ -25,6 +25,7 @@
                 HorizontalTextAlignment="Center"
                 />
 
+            <Label Text="{uix:RelPath hello.world}"/>
             <Button              
                 Text="Close app" 
                 HorizontalOptions="Center"
