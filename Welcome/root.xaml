@@ -42,7 +42,7 @@
                 <Button
                     Text="Visit website for more examples"
                     HorizontalOptions="Center"
-                    Command="{uix:Browse https://github.com/kefyru/uix.demos"
+                    Command="{uix:Browse https://github.com/kefyru/uix.demos}"
                     />
 
                 <Button              
