@@ -5,6 +5,9 @@
              Title="Main page">
     <x:Arguments>
       <ContentPage Title="Welcome">
+        <ContentPage.ToolBarItems>
+            <ToolbarItem Text="Source" Command="{uix:NavPush root.xaml, Type=Html}"/>
+        </ContentPage.ToolBarItems>  
         <ScrollView>
             <VerticalStackLayout
                 Padding="30,0"
