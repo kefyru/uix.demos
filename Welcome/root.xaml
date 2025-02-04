@@ -7,7 +7,6 @@
       <ContentPage Title="Welcome">
         <ContentPage.ToolbarItems>
             <ToolbarItem Text="Source" Command="{uix:NavPush root.xaml, Type=Html}"/>
-
         </ContentPage.ToolbarItems>  
         <ScrollView>
             <VerticalStackLayout
@@ -37,12 +36,6 @@
                     Command="{uix:NavPush cat.xaml}"
                     />
 
-                <Button              
-                    Text="View source" 
-                    HorizontalOptions="Center"
-                    Command="{uix:NavPush root.xaml, Type=Html}"
-                    />
-       
                 <Button
                     Text="Visit website for more examples"
                     HorizontalOptions="Center"

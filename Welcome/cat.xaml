@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:uix="clr-namespace:uix"
              Title="Cat">
-  
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Text="Source" Command="{uix:NavPush cat.xaml, Type=Html}"/>
+        </ContentPage.ToolbarItems>   
         <ScrollView>
             <VerticalStackLayout
                 Padding="30,0"
@@ -21,12 +23,6 @@
                     HorizontalTextAlignment="Center"
                     />
     
-                <Button              
-                    Text="View source" 
-                    HorizontalOptions="Center"
-                    Command="{uix:NavPush cat.xaml, Type=Html}"
-                    />
-  
             </VerticalStackLayout>
         </ScrollView>
 </ContentPage>
