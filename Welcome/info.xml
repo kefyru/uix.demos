@@ -1,6 +1,6 @@
 <AppInfo>
   <Title>Welcome</Title>
-  <BasePath>https://raw.githubusercontent.com/kefyru/uix.demos/refs/heads/main/HelloWorld</BasePath>
+  <BasePath>https://raw.githubusercontent.com/kefyru/uix.demos/refs/heads/main/Welcome</BasePath>
   <IconSource>uix.png</IconSource>
   <RootPage>root.xaml</RootPage>
   <Description>Welcome to uix. This app demonstrate basic usage</Description>
