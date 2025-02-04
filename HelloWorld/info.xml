@@ -1,7 +1,7 @@
 <AppInfo>
   <Title>Hello world</Title>
   <BasePath>https://raw.githubusercontent.com/kefyru/uix.demos/refs/heads/main/HelloWorld</BasePath>
-  <IconSource>appicon.png</IconSource>
+  <IconSource>appicon.svg</IconSource>
   <RootPage>root.xaml</RootPage>
   <Description>This app demonsrate basic usage</Description>
   <Author>kefyru</Author>
