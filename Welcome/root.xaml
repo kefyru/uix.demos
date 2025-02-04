@@ -26,7 +26,7 @@
     
                 <Label
                     Text="With this application you can quickly create and publish a UI prototype from scratch using the XAML markup language.
-                          Click &qt;Source&qt; button on top right corner to see source XAML markup of this page."
+                          Click &quot;Source&quot; button on top right corner to see source XAML markup of this page."
                     Style="{StaticResource SubHeadline}"
                     HorizontalTextAlignment="Center"
                     />
