@@ -4,7 +4,7 @@
              xmlns:uix="clr-namespace:uix"
              Title="Main page">
     <x:Arguments>
-      <ContentPage Title="Hello world">
+      <ContentPage Title="Welcome">
         <ScrollView>
             <VerticalStackLayout
                 Padding="30,0"
@@ -16,13 +16,13 @@
                     />
     
                 <Label
-                    Text="Hello, World!"
+                    Text="Welcome to UIX!"
                     Style="{StaticResource Headline}"
                     HorizontalTextAlignment="Center"
                     />
     
                 <Label
-                    Text="Welcome to &#10;.NET Multi-platform App UI"
+                    Text="With this application you can quickly create and publish a UI prototype from scratch using the XAML markup language."
                     Style="{StaticResource SubHeadline}"
                     HorizontalTextAlignment="Center"
                     />
@@ -38,7 +38,13 @@
                     HorizontalOptions="Center"
                     Command="{uix:NavPush root.xaml, Type=Html}"
                     />
-                
+       
+                <Button
+                    Text="Visit website for more examples"
+                    HorizontalOptions="Center"
+                    Command="{uix:Browse https://github.com/kefyru/uix.demos"
+                    />
+
                 <Button              
                     Text="Close app" 
                     HorizontalOptions="Center"
