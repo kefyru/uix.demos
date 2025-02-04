@@ -7,6 +7,7 @@
       <ContentPage Title="Welcome">
         <ContentPage.ToolbarItems>
             <ToolbarItem Text="Source" Command="{uix:NavPush root.xaml, Type=Html}"/>
+
         </ContentPage.ToolbarItems>  
         <ScrollView>
             <VerticalStackLayout
