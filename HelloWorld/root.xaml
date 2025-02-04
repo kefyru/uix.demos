@@ -10,7 +10,7 @@
                 Padding="30,0"
                 Spacing="25">
                 <Image
-                    Source="{uix:RelPath appicon.svg}"
+                    Source="{uix:RelPath uix.svg}"
                     HeightRequest="185"
                     Aspect="AspectFit"
                     />
