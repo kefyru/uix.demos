@@ -30,23 +30,30 @@
                     HorizontalTextAlignment="Center"
                     />
 
-                <Button              
-                    Text="Show me a cat" 
+                <VerticalStackLayout 
+                    Spacing="25" 
                     HorizontalOptions="Center"
-                    Command="{uix:NavPush cat.xaml}"
-                    />
+                    >
+                    <Button              
+                        Text="Show me a cat" 
+                        Command="{uix:NavPush cat.xaml}"
+                        />
 
-                <Button
-                    Text="Visit website for more examples"
-                    HorizontalOptions="Center"
-                    Command="{uix:Browse https://github.com/kefyru/uix.demos}"
-                    />
+                    <Button
+                        Text="About XAML markup"
+                        Command="{uix:Browse https://learn.microsoft.com/dotnet/maui/xaml/fundamentals/essential-syntax}"
+                        />
 
-                <Button              
-                    Text="Close app" 
-                    HorizontalOptions="Center"
-                    Command="{uix:CloseApp}"
-                    />
+                    <Button
+                        Text="Visit website for more examples"
+                        Command="{uix:Browse https://github.com/kefyru/uix.demos}"
+                        />
+
+                    <Button              
+                        Text="Back to home" 
+                        Command="{uix:CloseApp}"
+                        />
+                </VerticalStackLayout>
             </VerticalStackLayout>
         </ScrollView>
       </ContentPage>
