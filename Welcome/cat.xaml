@@ -12,7 +12,7 @@
                 Spacing="25">
   
                 <Image
-					uix:Key="CatImage"
+					uix:Node.Key="CatImage"
                     Source="{uix:RelPath cat.png}"
                     HeightRequest="185"
                     Aspect="AspectFit"
@@ -24,7 +24,7 @@
                     HorizontalTextAlignment="Center"
                     />
 				<Button
-					uix:Key="CatButton"
+					uix:Node.Key="CatButton"
 					Text="Show another cat"
 					/>
     
