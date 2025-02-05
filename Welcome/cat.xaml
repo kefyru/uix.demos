@@ -10,13 +10,11 @@
             <VerticalStackLayout
                 Padding="30,0"
                 Spacing="25">
-  
                 <Image
                     Source="{uix:RelPath cat.png}"
                     HeightRequest="185"
                     Aspect="AspectFit"
                     />
-    
                 <Label
                     Text="This is a cat!"
                     Style="{StaticResource Headline}"
@@ -28,7 +26,6 @@
 					Command="{uix:HttpGet}"
 					CommandParameter="cat2.xml"
 					/>
-    
             </VerticalStackLayout>
         </ScrollView>
 </ContentPage>
