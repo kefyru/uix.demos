@@ -24,8 +24,10 @@
                     HorizontalTextAlignment="Center"
                     />
 				<Button
+					x:Name="B1"
 					uix:Node.Key="CatButton"
 					Text="Show another cat"
+					Command="{uix:HttpGet cat2.xml}"
 					/>
     
             </VerticalStackLayout>
