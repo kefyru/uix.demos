@@ -12,6 +12,7 @@
                 Spacing="25">
   
                 <Image
+					uix:Key="CatImage"
                     Source="{uix:RelPath cat.png}"
                     HeightRequest="185"
                     Aspect="AspectFit"
@@ -22,6 +23,10 @@
                     Style="{StaticResource Headline}"
                     HorizontalTextAlignment="Center"
                     />
+				<Button
+					uix:Key="CatButton"
+					Text="Show another cat"
+					/>
     
             </VerticalStackLayout>
         </ScrollView>
