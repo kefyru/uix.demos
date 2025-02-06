@@ -18,7 +18,7 @@
          Spacing="25" >
          <Image
             Source="{uix:RelPath {DynamicResource CatImageSource}}"
-            HeightRequest="185"
+            HeightRequest="300"
             Aspect="AspectFit" />
          <Label
             Text="{DynamicResource CatName}"
