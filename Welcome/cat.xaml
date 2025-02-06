@@ -28,7 +28,7 @@
             HorizontalOptions="Center"
             Text="Show me another cat"
             Command="{uix:HttpGet}"
-            CommandParameter="{uix:RelPath {DynamicResource AnotherCatGet}}" />
+            CommandParameter="{DynamicResource AnotherCatGet}" />
       </VerticalStackLayout>
    </ScrollView>
 </ContentPage>
