@@ -1,31 +1,34 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:uix="clr-namespace:uix"
-             Title="Cat">
-        <ContentPage.ToolbarItems>
-            <ToolbarItem Text="Source" Command="{uix:NavPush cat.xaml, Type=Html}"/>
-        </ContentPage.ToolbarItems>   
-        <ScrollView>
-            <VerticalStackLayout
-                Padding="30,0"
-                Spacing="25">
-                <Image
-                    Source="{uix:RelPath cat.png}"
-                    HeightRequest="185"
-                    Aspect="AspectFit"
-                    />
-                <Label
-                    Text="This is a cat!"
-                    Style="{StaticResource Headline}"
-                    HorizontalTextAlignment="Center"
-                    />
-				<Button
-					x:Name="B1"
-					Text="Show another cat"
-					Command="{uix:HttpGet}"
-					CommandParameter="cat2.xml"
-					/>
-            </VerticalStackLayout>
-        </ScrollView>
+             Title="Cat" >
+   <ContentPage.Resources>
+      <x:String x:Key="CatImageSource">cat1.png</x:String>
+      <x:String x:Key="AnotherCatGet">getCat2.xaml</x:String>
+      <x:String x:Key="CatName">This is a cat! The cat name is Ralph!</x:String>
+   </ContentPage.Resources>
+   <ContentPage.ToolbarItems>
+      <ToolbarItem Text="Source" Command="{uix:NavPush cat.xaml, Type=Html}" />
+   </ContentPage.ToolbarItems>
+   <ScrollView>
+      <VerticalStackLayout
+         Padding="30,0"
+         Spacing="25" >
+         <Image
+            Source="{uix:RelPath {DynamicResource CatImageSource}}"
+            HeightRequest="185"
+            Aspect="AspectFit" />
+         <Label
+            Text="{DynamicResource CatName}"
+            Style="{StaticResource Headline}"
+            HorizontalTextAlignment="Center" />
+         <Button
+            HorizontalOptions="Center"
+            Text="Show me another cat"
+            Command="{uix:HttpGet}"
+            CommandParameter="{uix:RelPath {DynamicResource AnotherCatGet}}" />
+      </VerticalStackLayout>
+   </ScrollView>
 </ContentPage>

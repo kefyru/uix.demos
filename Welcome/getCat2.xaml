@@ -1,0 +1,11 @@
+<uix:HttpMethodResult
+        xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        xmlns:uix="clr-namespace:uix">
+    <uix:HttpMethodResult.Resources>
+       <x:String x:Key="CatImageSource">cat2.png</x:String>
+       <x:String x:Key="AnotherCatGet">getCat1.xaml</x:String>
+       <x:String x:Key="CatName">This is a cat! The cat name is Bow!</x:String>
+    </uix:HttpMethodResult.Resources>
+    <uix:HttpMethodResult.Error/>
+</uix:HttpMethodResult>
