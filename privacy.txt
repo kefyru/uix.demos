@@ -1,0 +1,5 @@
+This application is a tool for prototyping forms as well as learning.Net MAUI xaml markup. 
+The application itself does not collect, store, process or distribute any personal data. 
+However, the content added to the application may request such data. 
+The user independently decides which content to add to the application and which data to provide. 
+The developer does not bear any responsibility for such actions.
